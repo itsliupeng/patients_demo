@@ -1,20 +1,23 @@
 #README
 
-## Ruby version
-  2.1
+## Intro
+This is a simpe rails demo and has implemeted I18n(en, zh-CN) and full unit and
+integrated test 
 
-## System dependencies
+## How to Run
+### Ruby version
+  ruby 2.1.1p76
+### System dependencies
   Ubuntu 12.04
 
-
-## Database creation
+### Database creation
 - rake db:create
 
-## Database initialization
+### Database initialization
 - rake db:migrate
 -  rake db:seed
 
-## How to run the test suite
+### How to run the test suite
 - rspec spec/ --format documentation
 
 
